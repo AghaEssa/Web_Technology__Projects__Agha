@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feminine Themed Prototype</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+        padding:4vw;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h1, h2 {
+      font-family:'Times New Roman', Times, serif;
+    }
+  </style>
+</head>
+<body class="bg-green-50 text-gray-700">
+  <!-- Header -->
+  <header class="flex items-center justify-between p-4 bg-green-100 shadow-md">
+    <div class="text-2xl font-bold text-pink-600">Logo</div>
+    <nav class="flex space-x-4">
+      <a href="#" class="bg-pink-300 px-4 py-2 rounded-full hover:bg-pink-400 text-white">Home</a>
+      <a href="#" class="bg-pink-300 px-4 py-2 rounded-full hover:bg-pink-400 text-white">About</a>
+      <a href="#" class="bg-pink-300 px-4 py-2 rounded-full hover:bg-pink-400 text-white">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Page Title and Filters -->
+  <section class="text-center py-8">
+    <h1 class="text-4xl text-green-700 mb-4">Page Title</h1>
+    <div class="flex justify-center space-x-4">
+      <button class="px-4 py-2 bg-pink-300 rounded-full text-white hover:bg-pink-400">All</button>
+      <button class="px-4 py-2 bg-pink-300 rounded-full text-white hover:bg-pink-400">Web</button>
+      <button class="px-4 py-2 bg-pink-300 rounded-full text-white hover:bg-pink-400">Design</button>
+    </div>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-16">
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+      <div class="bg-green-200 h-48 flex items-center justify-center">Image Placeholder</div>
+      <div class="p-4">
+        <h2 class="text-xl text-pink-600">Title</h2>
+        <p class="text-sm mt-2">Description</p>
+        <button class="mt-4 px-4 py-2 bg-green-300 rounded-full text-white hover:bg-pink-400">More</button>
+      </div>
+    </div>
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+      <div class="bg-green-200 h-48 flex items-center justify-center">Image Placeholder</div>
+      <div class="p-4">
+        <h2 class="text-xl text-pink-600">Title</h2>
+        <p class="text-sm mt-2">Description</p>
+        <button class="mt-4 px-4 py-2 bg-green-300 rounded-full text-white hover:bg-pink-400">More</button>
+      </div>
+    </div>
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+      <div class="bg-green-200 h-48 flex items-center justify-center">Image Placeholder</div>
+      <div class="p-4">
+        <h2 class="text-xl text-pink-600">Title</h2>
+        <p class="text-sm mt-2">Description</p>
+        <button class="mt-4 px-4 py-2 bg-green-300 rounded-full text-white hover:bg-green-400">More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-12 bg-green-100 text-center py-6">
+    <p class="text-sm">Contact Info</p>
+    <div class="mt-2 flex justify-center space-x-4">
+      <div class="w-8 h-8 bg-green-300 flex items-center justify-center rounded-full">Icon 1</div>
+      <div class="w-8 h-8 bg-green-300 flex items-center justify-center rounded-full">Icon 2</div>
+    </div>
+  </footer>
+</body>
+</html>
